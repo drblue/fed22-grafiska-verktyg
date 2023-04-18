@@ -7,7 +7,10 @@
 // our own styles
 
 #hero {
-	background-image: url('/hero-bg.jpg');
+	// background: url('/hero-bg.jpg');
+	background:
+		linear-gradient(90deg, #33333388 0%, #33333388 100%),
+		url('/hero-bg.jpg');
 	background-size: cover;
 	background-position-x: center;
 	background-position-y: center;
