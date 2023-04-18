@@ -5,6 +5,13 @@
 @import "bootstrap/scss/bootstrap";
 
 // our own styles
-.usp .content {
-	background-color: #ddd;
+.usp {
+	display: flex;
+	flex-direction: column;
+
+	.content {
+		background-color: #ddd;
+		flex-grow: 1;
+		// align-self: stretch;
+	}
 }
